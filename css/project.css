@@ -1,0 +1,68 @@
+.main-section {
+  padding: 9.6rem 8rem 6rem 8rem;
+}
+
+.title {
+  font-size: 4.4rem;
+  font-weight: 500;
+  text-align: center;
+  padding-bottom: 1.2rem;
+}
+
+.sub-title {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 6rem;
+}
+
+/******************************/
+/* CARD */
+/******************************/
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 3.5fr 1fr;
+  gap: 2.4rem;
+}
+
+.card {
+  grid-column: 2 / 3;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1.6px solid #fff;
+}
+
+.card-img {
+  width: 100%;
+  padding: 1.8rem;
+}
+
+.description {
+  padding: 1.6rem;
+}
+
+.card-title {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding-bottom: 1.2rem;
+  text-align: center;
+}
+
+.card-description {
+  font-size: 1.8rem;
+  padding-bottom: 4.4rem;
+}
+
+.button-container {
+  display: grid;
+  justify-content: center;
+}
+
+.link-button {
+  text-decoration: none;
+  font-size: 2.6rem;
+  padding: 1.2rem;
+  border: 1.6px solid #22d3ee;
+  border-radius: 5px;
+  color: #000;
+}

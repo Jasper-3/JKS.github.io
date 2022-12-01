@@ -1,0 +1,43 @@
+/******************************/
+/* BELOW 1293px (smaller desktop) */
+/******************************/
+@media (max-width: 81em) {
+  .developer {
+    display: block;
+  }
+}
+
+/******************************/
+/* BELOW 946px (Tablets) */
+/******************************/
+@media (max-width: 59em) {
+  .header-container-inner {
+    width: 77%;
+  }
+}
+
+/******************************/
+/* BELOW 721px (Smaller Tablets) */
+/******************************/
+@media (max-width: 46em) {
+  .header-container-inner {
+    width: 100%;
+  }
+}
+
+/******************************/
+/* BELOW 560px (Phone) */
+/******************************/
+@media (max-width: 35em) {
+  .h1 {
+    font-size: 5.2rem;
+  }
+
+  .intro {
+    font-size: 3.6rem;
+  }
+
+  .main-section {
+    padding: 4.8rem 4rem 0 4rem;
+  }
+}

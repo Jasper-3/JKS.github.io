@@ -1,0 +1,45 @@
+/******************************/
+/* BELOW 1293px (smaller desktop) */
+/******************************/
+@media (max-width: 81em) {
+}
+
+/******************************/
+/* BELOW 946px (Tablets) */
+/******************************/
+@media (max-width: 59em) {
+  .card-container {
+    grid-template-columns: 1fr 5fr 1fr;
+  }
+}
+
+/******************************/
+/* BELOW 721px (Smaller Tablets) */
+/******************************/
+@media (max-width: 46em) {
+  .main-section {
+    padding: 7.2rem 6rem;
+  }
+
+  .card-container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+}
+
+/******************************/
+/* BELOW 560px (Phone) */
+/******************************/
+@media (max-width: 35em) {
+  .card-container {
+  }
+}
+
+/******************************/
+/* BELOW 432px (Phone) */
+/******************************/
+@media (max-width: 27em) {
+  .main-section {
+    padding: 4.8rem 3rem;
+  }
+}

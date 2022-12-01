@@ -1,0 +1,100 @@
+/******************************/
+/* Main Section */
+/******************************/
+
+.main-section {
+  padding: 9.6rem 8rem;
+}
+
+.primary--heading {
+  font-size: 3.6rem;
+  font-weight: 400;
+  padding-bottom: 3.2rem;
+}
+
+.about--me {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  padding-bottom: 1.6rem;
+}
+
+.about--list {
+  padding-left: 3.2rem;
+  list-style: none;
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+.cs-img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.img-box {
+  align-self: center;
+}
+
+/******************************/
+/* Gallery Section */
+/******************************/
+.gallery-section {
+  padding: 0 8rem 6rem 8rem;
+}
+
+.gallery {
+  display: grid;
+  column-gap: 1.2rem;
+}
+
+.gallery-skill {
+  grid-template-rows: auto 1fr;
+}
+
+.gallery-tools {
+  grid-template-rows: auto 1fr;
+}
+
+.skill-title {
+  justify-self: center;
+  font-size: 3rem;
+  padding-bottom: 3.2rem;
+}
+
+.tool-title {
+  justify-self: center;
+  font-size: 3rem;
+  padding-bottom: 3.2rem;
+}
+
+.tech-icon {
+  height: 13.2rem;
+  width: 13.2rem;
+  margin: 4rem;
+  fill: #000;
+}
+
+.card-container {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: space-around;
+}
+
+.card-container-tools {
+  display: flex;
+  justify-content: center;
+  gap: 23rem;
+}
+
+.icon-card {
+  justify-self: end;
+  border: 1.6px solid #fff;
+  border-radius: 5px;
+  box-shadow: 4px 5px 4px 3px rgba(145, 233, 247, 0.137);
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.icon-card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 4px 5px 4px 3px rgba(145, 233, 247, 0.137);
+}
