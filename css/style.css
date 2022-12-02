@@ -6,14 +6,15 @@
 /* Main Section */
 /******************************/
 .main-section {
-  height: 80vh;
-  padding: 9.6rem 8rem 0 8rem;
+  height: 85vh;
+  padding: 0 8rem;
 }
 
 .header-container {
   max-width: 140rem;
-
-  justify-content: start;
+  display: grid;
+  grid-template-rows: 1fr;
+  height: 100%;
 }
 
 .h1 {
